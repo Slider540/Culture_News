@@ -384,7 +384,8 @@ ol {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  width: 169px;
+  /* width: 169px; */
+  width: 108px;
   margin: 0 auto;
   justify-content: space-between;
 }
@@ -394,12 +395,22 @@ ol {
   width: 47px;
   height: 47px;
   font-size: 0;
-  background-color: #ffffff;
+  /* background-color: #ffffff; */
   background-repeat: no-repeat;
   background-position: center;
 }
 
-.social-list-link-inst {
+.social-list-link-vk {
+  background-image: url("../img/vk-logo.svg");
+  background-size: cover;
+}
+
+.social-list-link-tg {
+  background-image: url("../img/tg-logo.svg");
+  background-size: cover;
+}
+
+/* .social-list-link-inst {
   background-image: url("../img/instagram-icon.svg");
 }
 
@@ -409,4 +420,4 @@ ol {
 
 .social-list-link-tw {
   background-image: url("../img/twitter-icon.svg");
-}
+} */
