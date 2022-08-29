@@ -396,17 +396,19 @@ ol {
   height: 47px;
   font-size: 0;
   /* background-color: #ffffff; */
+  border: 1px solid rgba(255,255,255,0.4);
+  border-radius: 15%;
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .social-list-link-vk {
-  background-image: url("../img/vk-logo.svg");
+  background-image: url("../img/vk-logo.png");
   background-size: cover;
 }
 
 .social-list-link-tg {
-  background-image: url("../img/tg-logo.svg");
+  background-image: url("../img/tg-logo.png");
   background-size: cover;
 }
 
